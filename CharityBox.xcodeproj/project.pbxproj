@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69C8ACEB2DC757EFF943E106 /* Pods_CharityBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78172820ECB9DFB29FAB8378 /* Pods_CharityBox.framework */; };
 		E14D700D27F9B412000C22B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D700C27F9B412000C22B6 /* AppDelegate.swift */; };
 		E14D700F27F9B412000C22B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D700E27F9B412000C22B6 /* SceneDelegate.swift */; };
 		E14D701127F9B412000C22B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D701027F9B412000C22B6 /* ViewController.swift */; };
 		E14D701427F9B412000C22B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14D701227F9B412000C22B6 /* Main.storyboard */; };
 		E14D701627F9B413000C22B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14D701527F9B413000C22B6 /* Assets.xcassets */; };
 		E14D701927F9B413000C22B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14D701727F9B413000C22B6 /* LaunchScreen.storyboard */; };
+		E14D702127F9B7EA000C22B6 /* OrganizationHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D702027F9B7EA000C22B6 /* OrganizationHomeViewController.swift */; };
+		E14D702327F9B85B000C22B6 /* OrganizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D702227F9B85B000C22B6 /* OrganizationDetailViewController.swift */; };
+		E14D702527F9BD9B000C22B6 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D702427F9BD9B000C22B6 /* Organization.swift */; };
+		E14D702727F9BDAF000C22B6 /* OrganizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D702627F9BDAF000C22B6 /* OrganizationResponse.swift */; };
+		E14D702927F9CB0F000C22B6 /* OrganizationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D702827F9CB0F000C22B6 /* OrganizationTableViewCell.swift */; };
+		E14D702B27F9F980000C22B6 /* CampaignsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D702A27F9F980000C22B6 /* CampaignsHomeViewController.swift */; };
+		E14D702D27F9FC2D000C22B6 /* Campaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D702C27F9FC2D000C22B6 /* Campaigns.swift */; };
+		E14D703127F9FC62000C22B6 /* CampaignsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D703027F9FC62000C22B6 /* CampaignsTableViewCell.swift */; };
+		E14D703327F9FECD000C22B6 /* CampaignsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D703227F9FECD000C22B6 /* CampaignsResponse.swift */; };
+		E14D703527FA102C000C22B6 /* CampaignDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D703427FA102C000C22B6 /* CampaignDetailViewController.swift */; };
+		E14D703727FA3472000C22B6 /* CampaignsByCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D703627FA3472000C22B6 /* CampaignsByCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D6A986F9B78FFF8B3811CB4 /* Pods-CharityBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityBox.debug.xcconfig"; path = "Target Support Files/Pods-CharityBox/Pods-CharityBox.debug.xcconfig"; sourceTree = "<group>"; };
+		78172820ECB9DFB29FAB8378 /* Pods_CharityBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14D700927F9B412000C22B6 /* CharityBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharityBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14D700C27F9B412000C22B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E14D700E27F9B412000C22B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,18 @@
 		E14D701527F9B413000C22B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14D701827F9B413000C22B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14D701A27F9B413000C22B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14D702027F9B7EA000C22B6 /* OrganizationHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationHomeViewController.swift; sourceTree = "<group>"; };
+		E14D702227F9B85B000C22B6 /* OrganizationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationDetailViewController.swift; sourceTree = "<group>"; };
+		E14D702427F9BD9B000C22B6 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		E14D702627F9BDAF000C22B6 /* OrganizationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationResponse.swift; sourceTree = "<group>"; };
+		E14D702827F9CB0F000C22B6 /* OrganizationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationTableViewCell.swift; sourceTree = "<group>"; };
+		E14D702A27F9F980000C22B6 /* CampaignsHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsHomeViewController.swift; sourceTree = "<group>"; };
+		E14D702C27F9FC2D000C22B6 /* Campaigns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campaigns.swift; sourceTree = "<group>"; };
+		E14D703027F9FC62000C22B6 /* CampaignsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsTableViewCell.swift; sourceTree = "<group>"; };
+		E14D703227F9FECD000C22B6 /* CampaignsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsResponse.swift; sourceTree = "<group>"; };
+		E14D703427FA102C000C22B6 /* CampaignDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignDetailViewController.swift; sourceTree = "<group>"; };
+		E14D703627FA3472000C22B6 /* CampaignsByCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignsByCategoryViewController.swift; sourceTree = "<group>"; };
+		E5501B97F77CB9B4A63E6D42 /* Pods-CharityBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityBox.release.xcconfig"; path = "Target Support Files/Pods-CharityBox/Pods-CharityBox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C8ACEB2DC757EFF943E106 /* Pods_CharityBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2479E3FAF6BCE7DC4505D80A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78172820ECB9DFB29FAB8378 /* Pods_CharityBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C3D6ECC5DC8D16DC5D1A716 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A986F9B78FFF8B3811CB4 /* Pods-CharityBox.debug.xcconfig */,
+				E5501B97F77CB9B4A63E6D42 /* Pods-CharityBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E14D700027F9B412000C22B6 = {
 			isa = PBXGroup;
 			children = (
 				E14D700B27F9B412000C22B6 /* CharityBox */,
 				E14D700A27F9B412000C22B6 /* Products */,
+				7C3D6ECC5DC8D16DC5D1A716 /* Pods */,
+				2479E3FAF6BCE7DC4505D80A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +109,17 @@
 				E14D701527F9B413000C22B6 /* Assets.xcassets */,
 				E14D701727F9B413000C22B6 /* LaunchScreen.storyboard */,
 				E14D701A27F9B413000C22B6 /* Info.plist */,
+				E14D702027F9B7EA000C22B6 /* OrganizationHomeViewController.swift */,
+				E14D702227F9B85B000C22B6 /* OrganizationDetailViewController.swift */,
+				E14D702427F9BD9B000C22B6 /* Organization.swift */,
+				E14D702627F9BDAF000C22B6 /* OrganizationResponse.swift */,
+				E14D702827F9CB0F000C22B6 /* OrganizationTableViewCell.swift */,
+				E14D702A27F9F980000C22B6 /* CampaignsHomeViewController.swift */,
+				E14D702C27F9FC2D000C22B6 /* Campaigns.swift */,
+				E14D703027F9FC62000C22B6 /* CampaignsTableViewCell.swift */,
+				E14D703227F9FECD000C22B6 /* CampaignsResponse.swift */,
+				E14D703427FA102C000C22B6 /* CampaignDetailViewController.swift */,
+				E14D703627FA3472000C22B6 /* CampaignsByCategoryViewController.swift */,
 			);
 			path = CharityBox;
 			sourceTree = "<group>";
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E14D701D27F9B413000C22B6 /* Build configuration list for PBXNativeTarget "CharityBox" */;
 			buildPhases = (
+				993EC18BEFFD999F909426CD /* [CP] Check Pods Manifest.lock */,
 				E14D700527F9B412000C22B6 /* Sources */,
 				E14D700627F9B412000C22B6 /* Frameworks */,
 				E14D700727F9B412000C22B6 /* Resources */,
+				7358E62CAA56E8F3CDC37946 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +191,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7358E62CAA56E8F3CDC37946 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CharityBox/Pods-CharityBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CharityBox/Pods-CharityBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CharityBox/Pods-CharityBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		993EC18BEFFD999F909426CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharityBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E14D700527F9B412000C22B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14D702127F9B7EA000C22B6 /* OrganizationHomeViewController.swift in Sources */,
 				E14D701127F9B412000C22B6 /* ViewController.swift in Sources */,
+				E14D702927F9CB0F000C22B6 /* OrganizationTableViewCell.swift in Sources */,
 				E14D700D27F9B412000C22B6 /* AppDelegate.swift in Sources */,
+				E14D702327F9B85B000C22B6 /* OrganizationDetailViewController.swift in Sources */,
+				E14D702527F9BD9B000C22B6 /* Organization.swift in Sources */,
+				E14D703127F9FC62000C22B6 /* CampaignsTableViewCell.swift in Sources */,
+				E14D703727FA3472000C22B6 /* CampaignsByCategoryViewController.swift in Sources */,
+				E14D703527FA102C000C22B6 /* CampaignDetailViewController.swift in Sources */,
 				E14D700F27F9B412000C22B6 /* SceneDelegate.swift in Sources */,
+				E14D703327F9FECD000C22B6 /* CampaignsResponse.swift in Sources */,
+				E14D702D27F9FC2D000C22B6 /* Campaigns.swift in Sources */,
+				E14D702B27F9F980000C22B6 /* CampaignsHomeViewController.swift in Sources */,
+				E14D702727F9BDAF000C22B6 /* OrganizationResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +395,7 @@
 		};
 		E14D701E27F9B413000C22B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6A986F9B78FFF8B3811CB4 /* Pods-CharityBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +414,7 @@
 		};
 		E14D701F27F9B413000C22B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5501B97F77CB9B4A63E6D42 /* Pods-CharityBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

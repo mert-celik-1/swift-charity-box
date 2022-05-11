@@ -1,0 +1,6 @@
+framework module Pods_CharityBox {
+  umbrella header "Pods-CharityBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
